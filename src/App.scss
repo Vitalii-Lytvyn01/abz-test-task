@@ -1,0 +1,9 @@
+@use '../src/Util/Style/Variables.scss';
+
+.App {
+  background-color: Variables.$light-gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}

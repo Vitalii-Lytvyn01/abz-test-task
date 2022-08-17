@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/abz-test-task/static/css/main.a47e6c1b.css",
+    "main.js": "/abz-test-task/static/js/main.f1f86c7e.js",
+    "static/js/787.f5104f72.chunk.js": "/abz-test-task/static/js/787.f5104f72.chunk.js",
+    "static/media/pexels-alexandr-podvalny-1227513.jpeg": "/abz-test-task/static/media/pexels-alexandr-podvalny-1227513.be7665f876bbd9138501.jpeg",
+    "static/media/success-image.svg": "/abz-test-task/static/media/success-image.0d3202ba11b04fa7364b.svg",
+    "static/media/Logo.svg": "/abz-test-task/static/media/Logo.8bb55362d01d55393ccc.svg",
+    "static/media/photo-cover.svg": "/abz-test-task/static/media/photo-cover.fb98cf13a87225efe558.svg",
+    "index.html": "/abz-test-task/index.html",
+    "static/media/checkbox-checked.svg": "/abz-test-task/static/media/checkbox-checked.af42a3ff810118680dbe.svg",
+    "static/media/checkbox-unchecked.svg": "/abz-test-task/static/media/checkbox-unchecked.62208ceb1111ba17b594.svg",
+    "main.a47e6c1b.css.map": "/abz-test-task/static/css/main.a47e6c1b.css.map",
+    "main.f1f86c7e.js.map": "/abz-test-task/static/js/main.f1f86c7e.js.map",
+    "787.f5104f72.chunk.js.map": "/abz-test-task/static/js/787.f5104f72.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a47e6c1b.css",
+    "static/js/main.f1f86c7e.js"
+  ]
+}

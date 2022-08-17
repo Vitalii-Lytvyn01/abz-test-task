@@ -1,9 +1,10 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import './Button.scss';
+import classNames from 'classnames';
 
 export default function Button(props) {
   return <div
-      className="button"
+      className={classNames('button yellow',{disabled: props.type === 'disabled'})}
       onClick={() => {
         props.onClickF();
       }}

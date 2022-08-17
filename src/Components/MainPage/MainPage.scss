@@ -20,8 +20,27 @@
     width: 100%;
     height: 650px;
 
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), no-repeat 50% bottom/140% url('../../Util/Images/pexels-alexandr-podvalny-1227513.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 100%;
+    // background-position: center;
+    background-image: url('../../Util/Images/pexels-alexandr-podvalny-1227513.jpeg');
 
+    margin-bottom: 140px;
+
+    .intro__background {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+
+      @media (max-width: 380px) {
+        padding: 0 16px;
+      }
+    }
 
     h1 {
       margin-bottom: 21px;
@@ -35,6 +54,86 @@
       width: 380px;
       text-align: center;
       color: white;
+
+      @media (max-width: 380px) {
+        width: 100%;
+      }
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    margin-bottom: 140px;
+
+    .list__heading {
+      text-align: center;
+      font-size: 40px;
+      line-height: 40px;
+      margin-bottom: 50px;
+    }
+
+    .list__grid {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-auto-rows: 254px;
+      column-gap: 30px;
+      row-gap: 30px;
+
+      margin-bottom: 50px;
+
+      @media (max-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 16px;
+        row-gap: 16px;
+      }
+
+      @media (max-width: 400px) {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+      }
+
+      .grid-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding: 20px;
+
+        min-width: 0;
+
+        &__image {
+          width: 70px;
+          height: 70px;
+          border-radius: 50%;
+
+          background-size: cover;
+          background-image: url('../../Util/Images/photo-cover.svg');
+
+          margin-bottom: 20px;
+        }
+
+        p {
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap;
+          max-width: 100%;
+        }
+
+        &__name {
+          max-width: 30%;
+          text-align: center;
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    .button {
+      width: 120px;
     }
   }
 }
